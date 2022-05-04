@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+h1 {
+    font-style:oblique;
+    font-size: 50px;
+    text-indent: 0px;
+    margin: 0px;
+    text-decoration-style: wavy;
+    line-height: 70px;
+    text-align: center;
+    color:black;
+    
+}   
+ul {
+    margin-left: 0px;
+    
+}
+ul li{
+display:inline-block;
+text-decoration: none;
+}
+ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+    font-size: 30px;
+
+}
+p {
+    color:white;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:oblique;
+}
+li {
+    color:black;
+    font-size: 30px;
+  font-weight: 300;
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ line-height: 50px;
+ text-indent:10px;
+ text-align:left;
+}
+.container{
+    background-color: darkslategrey;
+    width:100%;
+    position: relative;
+    line-height: 30%;
+
+    
+}
+.content {
+background-image: url(./image/IMG_4546.JPG);
+
+width:100%;
+opacity: 0.75;
+z-index: 1;
+height: 65%;
+z-index: 2;
+position: absolute;
+left: 0
+}
+
+div .content {
+    width: 100px;
+    height: 50px;
+    background-image: url(./image/IMG_4546.JPG);
+    position: relative;
+ 
+}
+.recipe {
+    text-align:right;
+    font-style: oblique;
+    width: 100%;
+    text-decoration: none;
+
+
+
+}
+#friedrice {
+    text-align:left;
+    text-decoration: none;
+    font-weight: 300;
+    color:black;
+    width: 100%;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: papayawhip;
+}
+
+
+
+
